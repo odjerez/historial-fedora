@@ -1,0 +1,109 @@
+ 1  clear
+    2  uname -a
+    3  clear
+    4  nmcli device status
+    5  nmcli con show
+    6  nmcli con mod enp0s3 ipv4.method auto
+    7  nmcli con up enp0s3
+    8  ip config
+    9  ip addr
+   10  nmcli con mod enp0s3 ipv4.method manual ipv4.addresses 10.0.0.210/24 ipv4.gateaway 10.0.0.1
+   11  nmcli con mod enp0s3 ipv4.method manual ipv4.addresses 10.0.0.210/24 ipv4.gateway 10.0.0.1
+   12  nmcli con up enp0s3
+   13  ip addr
+   14  clear
+   15  sudo useradd -m orlando
+   16  sudo passwd orlando
+   17  sudo usermod -aG wheel orlando
+   18  clear
+   19  sudo grouppadd guest
+   20  sudo groupadd guest
+   21  sudo useradd -m visitante -G guest
+   22  sudo passwd visitante
+   23  su visitante
+   24  su orlando
+   25  sudo userdel -r visitante
+   26  sudo groupdel guest
+   27  su visitante
+   28  clear
+   29  ls
+   30  rm klk.txt 
+   31  rm -r klk.txt 
+   32  ls
+   33  mkdir materia
+   34  cd materia/
+   35  vi estudiante.txt
+   36  ls
+   37  cat estudiante.txt 
+   38  chmod 700 estudiante.txt 
+   39  ls -la
+   40  chmod 070 estudiante.txt 
+   41  ls -la
+   42  mkdir materia2
+   43  ls
+   44  cp estudiante.txt /materia2
+   45  ls
+   46  cd materia2/
+   47  ls
+   48  ls -la
+   49  cd ..
+   50  ls
+   51  mvcp
+   52  cp
+   53  cp --help
+   54  clear
+   55  ls
+   56  cp estudiante.txt /materia2/estudiante.txt
+   57  ls
+   58  cd materia2
+   59  ls
+   60  ls -la
+   61  cd ..
+   62  ls
+   63  cp estudiante.txt estudiante2.txt 
+   64  ls
+   65  rm -r estudiante2.txt estudiante.txt 
+   66  sudo rm -r estudiante2.txt estudiante.txt 
+   67  ls
+   68  sudo rm -r materia2
+   69  ls
+   70  cd ..
+   71  ls
+   72  clear
+   73  ls
+   74  sudo rm -r materia
+   75  ls
+   76  clear
+   77  ls
+   78  mkdir materia
+   79  ls
+   80  cd materia
+   81  ls
+   82  vi estudiante.txt
+   83  ls
+   84  cat estudiante.txt 
+   85  ls -la
+   86  chmod 700 estudiante.txt 
+   87  ls -la
+   88  chmod 070 estudiante.txt 
+   89  ls -la
+   90  ls
+   91  cp estudiante.txt estudiante2.txt 
+   92  ls
+   93  mkdir materia2
+   94  ls
+   95  mv estudiante2.txt /materia2
+   96  mv estudiante2.txt /materia2/estudiante2.txt
+   97  mv estudiante2.txt materia2/estudiante2.txt
+   98  ls
+   99  cd materia2
+  100  ls
+  101  cat estudiante2.txt 
+  102  cd ..
+  103  ls
+  104  sudo rm -r materia
+  105  ls
+  106  ls -la
+  107  history
+  108  history > history.txt
+
