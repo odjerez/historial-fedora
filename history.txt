@@ -1,4 +1,6 @@
- 1  clear
+ 1 !!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 1!!!!!!!!!!!!!!!!!
+
+clear
     2  uname -a
     3  clear
     4  nmcli device status
@@ -107,3 +109,127 @@
   107  history
   108  history > history.txt
 
+!!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 1!!!!!!!!!!!!!!!!!
+
+
+
+!!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 2!!!!!!!!!!!!!!!!!
+
+    1  clear
+    2  sudo dnf update -y
+    3  sudo dnf upgrade -y
+    4  sudo dnf repolist all
+    5  clear
+    6  sudo dnf search bashtop
+    7  sudo dnf install bashtop -y
+    8  sudo dnf install bashtop --skip-unavailable
+    9  clear
+   10  sudo dnf install epel-release -y
+   11  sudo dnf config-manager --add-repo https://es.linux-console.net/?p=438#gsc.tab=0
+   12  sudo dnf install git
+   13  git clone https://github.com/aristocratos/bashtop.git
+   14  cd bashtop
+   15  make install
+   16  sudo dnf install make
+   17  ls
+   18  sudo make install
+   19  ls
+   20  bashtop
+   21  clear
+   22  ls
+   23  sudo dnf remove bashtop
+   24  sudo apt install bashtop
+   25  ls
+   26  sudo make install
+   27  ls
+   28  bashtop
+   29  clear
+   30  ls
+   31  sudo make uninstall
+   32  ls
+   33  bashtop
+   34  cd ..
+   35  ls
+   36  rm -rf bashtop
+   37  ls
+   38  ls -la
+   39  cd .config
+   40  ls
+   41  cd ..
+   42  ls
+   43  clear
+   44  git clone https://github.com/aristocratos/bashtop.git
+   45  ls
+   46  cd bashtop
+   47  ls
+   48  sudo make install
+   49  ls
+   50  bashtop
+   51  ls
+   52  sudo make uninstall
+   53  bashtop
+   54  cd ..
+   55  ls
+   56  rm -rf bashtop
+   57  ls
+   58  ls -la
+   59  cd .config
+   60  ls
+   61  rm -rf bashtop
+   62  ls
+   63  cd ..
+   64  clear
+   65  at
+   66  clear
+   67  crontab -e
+   68  sudo crontab -e
+   69  crontab -l
+   70  crontab -e
+   71  crontab -l
+   72  clear
+   73  crontab -e
+   74  crontab -l
+   75  crontab -e
+   76  crontab -l
+   77  clear
+   78  sudo systemctl status at
+   79  sudo systemctl status atd
+   80  clear
+   81  ls /tmp
+   82  echo "rm -rf /tmp/*" | at now + 1 minute
+   83  atq
+   84  ls tmp
+   85  ls /tmp
+   86  history >> historial.txt
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd home
+    5  ls
+    6  cat history.txt 
+    7  exit
+    8  sudo fdisk -l
+    9  sudo fdisk /dev/sdb
+   10  sudo mkfs.ext4 /dev/sdb1
+   11  sudo fdisk -l
+   12  clear
+   13  mkdir -p ~/Desktop/particion
+   14  sudo mount /dev/sdb1 ~/Desktop/particion
+   15  ls
+   16  cd Desktop/
+   17  ls
+   18  cd particion/
+   19  sudo touch AdrianAlcantara.txt
+   20  ls
+   21  vi AdrianAlcantara.txt 
+   22  sudo mount /dev/sdb1 /mnt
+   23  cd ~
+   24  cd /mnt
+   25  ls
+   26  cat AdrianAlcantara.txt 
+   27  history
+   28  cd ~
+   29  ls
+   30  history >> historial.txt
+
+!!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 2!!!!!!!!!!!!!!!!!
