@@ -233,3 +233,90 @@ clear
    30  history >> historial.txt
 
 !!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 2!!!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 3!!!!!!!!!!!!!!!!!
+
+vi /etc/default/grub
+grub2-mkconfig -o /boot/grub2/grub.cfg
+passwd
+touch /.autorelabel
+reboot
+
+vi backup.sh
+chmod +x backup.sh
+./backup.sh
+clear
+
+vi backup.sh
+chmod +x backup.sh
+./backup.sh
+clear
+
+vi ip.sh
+chmod +x ip.sh
+./ip.sh
+cd ..
+clear
+ls
+id
+exit
+cd /..
+cd tmp
+ls
+cd ~
+cat /tmp/llave_rsa.pub >> ~/.ssh/authorized_keys && rm /tmp/llave_rsa.pub 
+sudo cat /tmp/llave_rsa.pub >> ~/.ssh/authorized_keys && rm /tmp/llave_rsa.pub 
+ls
+cd .ssh
+ls
+cd au
+cd ..
+cd tmp
+ls
+cd ~
+sudo cat /tmp/llave_rsa.pub >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys 
+exit
+cd .ssh
+ls
+ls -la
+cat authorized_keys 
+clear
+exit
+sudo cat /tmp/llave_rsa.pub >> ~/.ssh/authorized_keys 
+sudo rm /../tmp/llave_rsa.pub 
+cd .ssh
+chmod 600 authorized_keys 
+exit
+clear
+cd ~
+id
+date
+cd .ssh
+ls
+vi authorized_keys 
+ls
+rm authorized_keys 
+sudo rm authorized_keys 
+mkdir authorized_keys
+chmod 600 authorized_keys/
+vi authorized_keys/
+sudo rm authorized_keys/
+sudo rm -r authorized_keys/
+vi authorized_keys
+chmod 600 authorized_keys 
+cat authorized_keys 
+date
+cd ..
+ls
+rm historial.txt 
+sudo rm historial.txt 
+history >> history.txt
+vi history.txt 
+history
+!!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 3!!!!!!!!!!!!!!!!!
+
+
+
+
