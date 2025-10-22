@@ -317,6 +317,82 @@ vi history.txt
 history
 !!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 3!!!!!!!!!!!!!!!!!
 
+!!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 4!!!!!!!!!!!!!!!!!
+sudo vi /etc/postfix/sasl_passwd
+sudo postmap /etc/postfix/sasl_passwd
+sudo chmod 600 /etc/postfix/sasl_passwd*
+sudo nano /etc/postfix/main.cf
+sudo vi /etc/postfix/main.cf
+sudo vi /etc/postfix/main.cf
+sudo systemctl restart postfix
+sudo systemctl start postfix
+echo "Orlando Daniel Jerez Estevez 20230913" | mail -s "MambruSeFueALaGuerra" leanguinimcclovin@gmail.com
+su daniel
+echo "Orlando Daniel Jerez Estevez 20230913" | mail -s "MambruSeFueALaGuerra" os3conadrian@gmail.com
+echo "Orlando Daniel Jerez Estevez 20230913" | mail -s "MambruSeFueALaGuerra" leanguinimcclovin@gmail.com
+history
+cd ~
+clear
+date
+sudo mkdir -p /var/wwww/holamundo/html/
+sudo vi /var/wwww/holamundo/html/index.html
+sudo vi /etc/httpd/conf.d/holamundo.conf
+sudo systemctl restart httpd
+sudo systemctl stop firewalld.service 
+cat /var/wwww/holamundo/html/index.html 
+sudo mkdir -p /var/www/holamundo/html
+sudo vi /var/www/holamundo/html/index.html
+sudo systemctl restart httpd
+date
+history
+sudo vi /var/www/info/html/index.html
+sudo vi /etc/httpd/conf/httpd.conf
+sudo vi /etc/httpd/conf.d/info.conf
+sudo systemctl restart httpd
+sudo vi /etc/httpd/conf/httpd.conf
+sudo vi /etc/httpd/conf.d/info.conf
+sudo systemctl status httpd
+sudo vi /etc/httpd/conf/httpd.conf
+sudo vi /etc/httpd/conf.d/info.conf
+cat /etc/httpd/conf.d/holamundo.conf 
+sudo vi /etc/httpd/conf.d/info.conf
+sudo systemctl status httpd
+sudo systemctl restart httpd
+date
+ip route
+sudo systemctl status cups
+sudo systemctl restart cups
+sudo systemctl status cups
+sudo systemctl status cups
+sudo systemctl status cups
+sudo systemctl status cups
+sudo systemctl status cups
+sudo systemctl stop cups
+sudo systemctl start cups
+sudo systemctl status cups
+sudo systemctl status cups
+sudo systemctl status cups
+sudo systemctl restart cups
+sudo dnf install cups-pdf
+cat /etc/dnf/dnf.conf
+vi /etc/dnf/dnf.conf
+sudo dnf install cups-pdf
+sudo systemctl status cups
+sudo systemctl status cups
+sudo systemctl status cups-pdf
+sudo systemctl restart cups
+sudo systemctl status cups-pdf
+sudo systemctl status cups
+sudo systemctl status cups
+sudo systemctl status cups
+clear
+history
+clear
+date
+vi /etc/cups/cupsd.conf
+
+!!!!!!!!!!!!!!!!!COMANDOS DEL LABORATORIO 4!!!!!!!!!!!!!!!!!
+
 
 
 
